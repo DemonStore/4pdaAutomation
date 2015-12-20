@@ -15,7 +15,8 @@ public class FourPdaAutomationTest
 
 	private final String MESSAGE = "Ожидайте письмо со ссылкой";
 	private final String COMMENT = "Hello, 4pda!";
-	private final String QUERY = "Google Nexus 5";
+    private final String QUERY = "Google Nexus 5";
+    private final String NEWS_NAME = "Руководитель мобильного подразделения Nokia пользуется iPhone 6";
 
 	@BeforeMethod(description = "Init browser")
 	public void setUp()
@@ -24,29 +25,35 @@ public class FourPdaAutomationTest
 		steps.initBrowser();
 	}
 
-//	@Test(description = "Login to 4pda")
-//	public void oneCanLoginWithoutCapcha()
-//	{
-//		steps.loginWihoutCapcha(USERNAME, PASSWORD);
-//		Assert.assertTrue(steps.isLoggedWithoutCapcha(MESSAGE));
-//	}
-//
-//	@Test
-//	public void oneGuestCanCommentPost()
-//	{
-//		Assert.assertTrue(steps.guestComment(COMMENT));
-//	}
+	@Test(description = "Login to 4pda")
+	public void oneCanLoginWithoutCapcha()
+	{
+		steps.loginWihoutCapcha(USERNAME, PASSWORD);
+		Assert.assertTrue(steps.isLoggedWithoutCapcha(MESSAGE));
+	}
 
-//	@Test
-//	public void oneCanFindInDevdb()
-//	{
-//		Assert.assertTrue(steps.searchInDevdb(QUERY));
-//	}
+	@Test
+	public void oneGuestCanCommentPost()
+	{
+		Assert.assertTrue(steps.guestComment(COMMENT));
+	}
+
+	@Test
+	public void oneCanFindInDevdb()
+	{
+		Assert.assertTrue(steps.searchInDevdb(QUERY));
+	}
 
     @Test
     public void oneCanTakePartInSurvey()
     {
         Assert.assertTrue(steps.takePartInSurvey());
+    }
+
+    @Test
+    public void oneCanFindNews()
+    {
+        Assert.assertTrue(steps.searchNews(NEWS_NAME));
     }
 
 	@AfterMethod(description = "Stop Browser")

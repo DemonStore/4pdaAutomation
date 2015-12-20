@@ -60,10 +60,9 @@ public class Steps
 	{
 		DevdbPage devdbPage = new DevdbPage(driver);
 		devdbPage.openPage();
-		String newUrl = devdbPage.submitSearchForm(query);
+		devdbPage.submitSearchForm(query);
 
 		WebElement firstResult = driver.findElement(By.cssSelector(".find-items li:first-child .name a"));
-		System.out.println(firstResult.getText());
 
 		return query.equals(firstResult.getText());
 	}
@@ -76,6 +75,17 @@ public class Steps
 
 		WebElement slider = driver.findElement(By.cssSelector(".poll-list .slider"));
 		return slider != null;
+	}
+
+	public boolean searchNews(String newsName)
+	{
+		MainPage mainPage = new MainPage(driver);
+		mainPage.openPage();
+		mainPage.submitSearchForm(newsName);
+
+		WebElement firstResult = driver.findElement(By.cssSelector(".search-list li:first-child h1 a"));
+
+		return firstResult.getText().equals(newsName);
 	}
 
 }

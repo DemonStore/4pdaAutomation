@@ -20,6 +20,12 @@ public class MainPage extends AbstractPage
 	@FindBy(css = ".poll-list + button")
 	private WebElement submitPoll;
 
+	@FindBy(css = ".holder-no-hidden .search-form input[type=text]")
+	private WebElement inputSearch;
+
+	@FindBy(css = ".holder-no-hidden .search-form input[type=submit]")
+	private WebElement submitSearch;
+
 	public MainPage(WebDriver driver)
 	{
 		super(driver);
@@ -35,6 +41,12 @@ public class MainPage extends AbstractPage
 	{
 		firstLabelOfPoll.click();
 		submitPoll.click();
+	}
+
+	public void submitSearchForm(String query)
+	{
+		inputSearch.sendKeys(query);
+		submitSearch.click();
 	}
 
 	@Override

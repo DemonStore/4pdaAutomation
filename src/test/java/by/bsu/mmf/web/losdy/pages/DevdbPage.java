@@ -23,11 +23,10 @@ public class DevdbPage extends AbstractPage
 		PageFactory.initElements(this.driver, this);
 	}
 
-	public String submitSearchForm(String query)
+	public void submitSearchForm(String query)
 	{
 		inputSearch.sendKeys(query);
 		submitSearch.click();
-		return driver.getCurrentUrl();
 	}
 
 	@Override
