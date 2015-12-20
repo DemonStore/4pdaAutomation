@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b689317-636a-469a-8bc3-8c340229ec27" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\src\test\java\by\bsu\mmf\web\losdy\pages\CreateNewRepositoryPage.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\Surefire suite\Surefire test.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\Surefire suite\Surefire test.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\Surefire suite\testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\failed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\Surefire suite\Surefire test.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\Surefire suite\classes.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\Surefire suite\groups.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\Surefire suite\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\Surefire suite\main.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\Surefire suite\methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\Surefire suite\methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\Surefire suite\methods.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\Surefire suite\reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\Surefire suite\testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\Surefire suite\toc.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\old\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\passed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\EduProjects\4pdaAutomation\target\surefire-reports\testng.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/FourPdaAutomationTest.java" afterPath="$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/FourPdaAutomationTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/steps/Steps.java" afterPath="$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/steps/Steps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -27,30 +55,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FourPdaAutomationTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FourPdaAutomationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/FourPdaAutomationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28421053">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Steps.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Steps.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/steps/Steps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.64">
-              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.49210528">
+              <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
               <folding>
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/pages/DevdbSearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <caret line="13" column="53" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="53" />
               <folding>
                 <element signature="e#667#668#0" expanded="true" />
                 <element signature="e#702#703#0" expanded="true" />
@@ -145,7 +172,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
+    <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -492,7 +519,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -500,12 +527,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1506647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14934114" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868218" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21787296" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.215959" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -543,10 +570,8 @@
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -564,8 +589,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
           <folding>
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -652,28 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/steps/Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.64">
-          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding>
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/pages/DevdbSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -682,16 +686,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/pages/DevdbSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/FourPdaAutomationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28421053">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/mmf/web/losdy/steps/Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49210528">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
           </folding>
         </state>
       </provider>

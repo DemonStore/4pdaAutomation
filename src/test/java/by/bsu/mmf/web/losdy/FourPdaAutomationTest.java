@@ -24,18 +24,18 @@ public class FourPdaAutomationTest
 		steps.initBrowser();
 	}
 
-	@Test(description = "Login to 4pda")
-	public void oneCanLoginWithoutCapcha()
-	{
-		steps.loginWihoutCapcha(USERNAME, PASSWORD);
-		Assert.assertTrue(steps.isLoggedWithoutCapcha(MESSAGE));
-	}
-
-	@Test
-	public void oneGuestCanCommentPost()
-	{
-		Assert.assertTrue(steps.guestComment(COMMENT));
-	}
+//	@Test(description = "Login to 4pda")
+//	public void oneCanLoginWithoutCapcha()
+//	{
+//		steps.loginWihoutCapcha(USERNAME, PASSWORD);
+//		Assert.assertTrue(steps.isLoggedWithoutCapcha(MESSAGE));
+//	}
+//
+//	@Test
+//	public void oneGuestCanCommentPost()
+//	{
+//		Assert.assertTrue(steps.guestComment(COMMENT));
+//	}
 
 	@Test
 	public void oneCanFindInDevdb()

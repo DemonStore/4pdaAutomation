@@ -3,9 +3,10 @@ package by.bsu.mmf.web.losdy.steps;
 import java.util.concurrent.TimeUnit;
 
 import by.bsu.mmf.web.losdy.pages.*;
-import by.bsu.mmf.web.losdy.pages.CreateNewRepositoryPage;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Steps
@@ -60,11 +61,10 @@ public class Steps
 		devdbPage.openPage();
 		String newUrl = devdbPage.submitSearchForm(query);
 
-		DevdbSearchPage devdbSearchPage = new DevdbSearchPage(driver, newUrl);
-		devdbSearchPage.openPage();
-		String firstResult = devdbSearchPage.getFirstResult();
+		WebElement firstResult = driver.findElement(By.cssSelector(".find-items li:first-child .name a"));
+		System.out.println(firstResult.getText());
 
-		return query == firstResult;
+		return query.equals(firstResult.getText());
 	}
 
 }
