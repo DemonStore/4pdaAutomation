@@ -2,14 +2,11 @@ package by.bsu.mmf.web.losdy.steps;
 
 import java.util.concurrent.TimeUnit;
 
+import by.bsu.mmf.web.losdy.pages.*;
 import by.bsu.mmf.web.losdy.pages.CreateNewRepositoryPage;
-import by.bsu.mmf.web.losdy.pages.LoginPage;
-import by.bsu.mmf.web.losdy.pages.PostPage;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-import by.bsu.mmf.web.losdy.pages.MainPage;
 
 public class Steps
 {
@@ -57,10 +54,17 @@ public class Steps
 		return lastComment == comment;
 	}
 
-	public boolean currentRepositoryIsEmpty()
+	public boolean searchInDevdb(String query)
 	{
-		CreateNewRepositoryPage createNewRepositoryPage = new CreateNewRepositoryPage(driver);
-		return createNewRepositoryPage.isCurrentRepositoryEmpty();
+		DevdbPage devdbPage = new DevdbPage(driver);
+		devdbPage.openPage();
+		String newUrl = devdbPage.submitSearchForm(query);
+
+		DevdbSearchPage devdbSearchPage = new DevdbSearchPage(driver, newUrl);
+		devdbSearchPage.openPage();
+		String firstResult = devdbSearchPage.getFirstResult();
+
+		return query == firstResult;
 	}
 
 }

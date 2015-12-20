@@ -14,6 +14,8 @@ public class FourPdaAutomationTest
 	private final String PASSWORD = "Waizh5tadV";
 
 	private final String MESSAGE = "ќжидайте письмо со ссылкой";
+	private final String COMMENT = "Hello, 4pda!";
+	private final String QUERY = "Google Nexus 5";
 
 	@BeforeMethod(description = "Init browser")
 	public void setUp()
@@ -32,9 +34,13 @@ public class FourPdaAutomationTest
 	@Test
 	public void oneGuestCanCommentPost()
 	{
-		Assert.assertTrue(steps.guestComment("testRepo"));
-//		Assert.assertTrue(steps.currentRepositoryIsEmpty());
-		// do not use lots of asserts
+		Assert.assertTrue(steps.guestComment(COMMENT));
+	}
+
+	@Test
+	public void oneCanFindInDevdb()
+	{
+		Assert.assertTrue(steps.searchInDevdb(QUERY));
 	}
 
 	@AfterMethod(description = "Stop Browser")
