@@ -1,4 +1,4 @@
-package com.epam.kzta2014.utils;
+package by.bsu.mmf.web.losdy.utils;
 
 import java.util.Random;
 

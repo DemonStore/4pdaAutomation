@@ -3,21 +3,13 @@
 <suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
   <test name="Surefire test(failed)">
     <classes>
-      <class name="com.epam.kzta2014.FourPdaAutomationTest">
+      <class name="by.bsu.mmf.web.losdy.FourPdaAutomationTest">
         <methods>
           <include name="stopBrowser"/>
-          <include name="oneCanLoginWithoutCapcha"/>
           <include name="setUp"/>
+          <include name="oneGuestCanCommentPost"/>
         </methods>
-      </class> <!-- com.epam.kzta2014.FourPdaAutomationTest -->
-      <class name="com.epam.kzta2014.GitHubAutomationTest">
-        <methods>
-          <include name="oneCanLoginGithub"/>
-          <include name="oneCanCreateProject"/>
-          <include name="setUp"/>
-          <include name="stopBrowser"/>
-        </methods>
-      </class> <!-- com.epam.kzta2014.GitHubAutomationTest -->
+      </class> <!-- by.bsu.mmf.web.losdy.FourPdaAutomationTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

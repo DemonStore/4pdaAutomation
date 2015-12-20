@@ -1,4 +1,4 @@
-package com.epam.kzta2014.pages;
+package by.bsu.mmf.web.losdy.pages;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.epam.kzta2014.utils.Utils;
+import by.bsu.mmf.web.losdy.utils.Utils;
 
 public class CreateNewRepositoryPage extends AbstractPage
 {

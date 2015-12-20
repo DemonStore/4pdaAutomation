@@ -1,4 +1,4 @@
-package com.epam.kzta2014.pages;
+package by.bsu.mmf.web.losdy.pages;
 
 import org.openqa.selenium.WebDriver;
 

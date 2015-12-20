@@ -1,11 +1,11 @@
-package com.epam.kzta2014;
+package by.bsu.mmf.web.losdy;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.epam.kzta2014.steps.Steps;
+import by.bsu.mmf.web.losdy.steps.Steps;
 
 public class FourPdaAutomationTest
 {
@@ -29,14 +29,13 @@ public class FourPdaAutomationTest
 		Assert.assertTrue(steps.isLoggedWithoutCapcha(MESSAGE));
 	}
 
-//	@Test
-//	public void oneGuestCanCommentPost()
-//	{
-//		steps.loginWihoutCapcha(USERNAME, PASSWORD);
-//		Assert.assertTrue(steps.createNewRepository("testRepo", "auto-generated test repo"));
+	@Test
+	public void oneGuestCanCommentPost()
+	{
+		Assert.assertTrue(steps.guestComment("testRepo"));
 //		Assert.assertTrue(steps.currentRepositoryIsEmpty());
-//		// do not use lots of asserts
-//	}
+		// do not use lots of asserts
+	}
 
 	@AfterMethod(description = "Stop Browser")
 	public void stopBrowser()
