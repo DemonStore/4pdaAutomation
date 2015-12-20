@@ -14,6 +14,12 @@ public class MainPage extends AbstractPage
 	@FindBy(css = "article.post:first-child .list-post-title a")
 	private WebElement firstPostLink;
 
+	@FindBy(css = ".poll-list li:first-child label")
+	private WebElement firstLabelOfPoll;
+
+	@FindBy(css = ".poll-list + button")
+	private WebElement submitPoll;
+
 	public MainPage(WebDriver driver)
 	{
 		super(driver);
@@ -23,6 +29,12 @@ public class MainPage extends AbstractPage
 	public String getLinkForFirstPost()
 	{
 		return firstPostLink.getAttribute("href");
+	}
+
+	public void submitFirstOptionOfPoll()
+	{
+		firstLabelOfPoll.click();
+		submitPoll.click();
 	}
 
 	@Override

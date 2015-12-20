@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import sun.applet.Main;
 
 public class Steps
 {
@@ -52,7 +53,7 @@ public class Steps
 		postPage.publishComment(comment);
 		String lastComment = postPage.getLastComment();
 
-		return lastComment == comment;
+		return lastComment.equals(comment);
 	}
 
 	public boolean searchInDevdb(String query)
@@ -65,6 +66,16 @@ public class Steps
 		System.out.println(firstResult.getText());
 
 		return query.equals(firstResult.getText());
+	}
+
+	public boolean takePartInSurvey()
+	{
+		MainPage mainPage = new MainPage(driver);
+		mainPage.openPage();
+		mainPage.submitFirstOptionOfPoll();
+
+		WebElement slider = driver.findElement(By.cssSelector(".poll-list .slider"));
+		return slider != null;
 	}
 
 }

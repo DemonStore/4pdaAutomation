@@ -37,11 +37,17 @@ public class FourPdaAutomationTest
 //		Assert.assertTrue(steps.guestComment(COMMENT));
 //	}
 
-	@Test
-	public void oneCanFindInDevdb()
-	{
-		Assert.assertTrue(steps.searchInDevdb(QUERY));
-	}
+//	@Test
+//	public void oneCanFindInDevdb()
+//	{
+//		Assert.assertTrue(steps.searchInDevdb(QUERY));
+//	}
+
+    @Test
+    public void oneCanTakePartInSurvey()
+    {
+        Assert.assertTrue(steps.takePartInSurvey());
+    }
 
 	@AfterMethod(description = "Stop Browser")
 	public void stopBrowser()
