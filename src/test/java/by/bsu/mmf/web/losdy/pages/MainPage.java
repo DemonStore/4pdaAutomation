@@ -41,12 +41,14 @@ public class MainPage extends AbstractPage
 	{
 		firstLabelOfPoll.click();
 		submitPoll.click();
+		logger.info("Submit first option of form performed");
 	}
 
 	public void submitSearchForm(String query)
 	{
 		inputSearch.sendKeys(query);
 		submitSearch.click();
+		logger.info("Submit search form on main page performed");
 	}
 
 	@Override

@@ -27,6 +27,7 @@ public class DevdbPage extends AbstractPage
 	{
 		inputSearch.sendKeys(query);
 		submitSearch.click();
+		logger.info("Submit search form on devdb page performed");
 	}
 
 	@Override

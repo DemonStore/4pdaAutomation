@@ -31,6 +31,7 @@ public class PostPage extends AbstractPage
 	{
 		commentTextArea.sendKeys(comment);
 		buttonSubmit.click();
+		logger.info("Publish comment on post page performed");
 	}
 
 	public String getLastComment()
